@@ -1,9 +1,18 @@
 using System;
 
-class Program
+class Person
 {
-    static void Main(string[] args)
+    public string? Name { get; set; } // Use ? to indicate it's nullable
+    public int Age { get; set; }
+
+    public void SayHello()
     {
-        Console.WriteLine("Hello Sandbox World!");
+        Console.WriteLine($"Hello, I'm {Name}, and I'm {Age} years old.");
+    }
+    
+    static void Main()
+    {
+        Person person1 = new Person { Name = "Alice", Age = 30 };
+        person1.SayHello();
     }
 }
