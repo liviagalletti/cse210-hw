@@ -1,10 +1,20 @@
-# cse210-student-template
-This is the starter code for students in CSE 210.
+# Eternal Quest Program  (C# .Net)
 
-This repository contains the starter code for many different projects. They are arranged as follows:
+## Description
+The Eternal Quest Program is a C# project that serves as a goal management system. It allows users to create, track, and manage goals, both simple goals and checklist goals. The program provides a menu-driven interface for users to add goals, record completed events, display goals, calculate total scores, save goals to a file, and load goals from a file.
 
-* `sandbox` - An empty project that you can use to play around with any concepts you like.
-* `csharp-prep` - Starter projects for each of the C# Prep assignments.
-* `prepare` - Starter projects for each of the preparation Learning Activities.
-* `prove` - Starter projects for each of the prove Developer projects.
-* `final` - Starter projects for final project.
+## Key Features
+- **Goal Management**: Create and manage both simple goals and checklist goals.
+- **Menu-Driven Interface**: User-friendly interface with options to perform various actions.
+- **Persistence**: Goals can be saved to a file and loaded back when the program is restarted.
+- **Scalability**: Easily extendable to add more features or modify existing ones.
+
+## Technologies Used
+- C# (Programming Language)
+- .NET Framework (Runtime Environment)
+
+## Usage
+The program can be downloaded and run locally on any machine with the .NET Framework installed. Users can interact with the program via the command-line interface.
+
+## Repository
+The source code for the Eternal Quest Program is available on [Quest Program](https://github.com/liviagalletti/cse210-hw/blob/main/prove/Develop05/Program.cs).
